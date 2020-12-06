@@ -5,3 +5,4 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 
 ;;;take notes and study ahk basic from the tutorial;;;
+;;;; Alt key is !    the Windows key is #     the Shift key is +     and Control key is ^ ;;;
