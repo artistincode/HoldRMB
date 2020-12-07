@@ -1,9 +1,16 @@
 ﻿<?xml version="1.0"?>
 <cexml>
 	<files>
-		<main file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AHK-Studio-master\Untitled\Untitled1.ahk" id="1" untitled="1">
-			<file dir="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AHK-Studio-master\Untitled" ext="ahk" file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AHK-Studio-master\Untitled\Untitled1.ahk" filename="Untitled1.ahk" id="2" lang="ahk" nne="Untitled1" type="File" untitled="1" edited="1" encoding="UTF-8"></file></main>
-		<main file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" id="3">
-			<file dir="C:\Users\Zizhe\Documents\GitHub\HoldRMB" ext="ahk" file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" filename="TutorialNotes.ahk" id="4" lang="ahk" lower="c:\users\zizhe\documents\github\holdrmb\tutorialnotes.ahk" nne="TutorialNotes" type="File" time="20201206130820" encoding="UTF-8"></file></main>
+		<main file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" id="1">
+			<file dir="C:\Users\Zizhe\Documents\GitHub\HoldRMB" ext="ahk" file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" filename="TutorialNotes.ahk" id="2" lang="ahk" lower="c:\users\zizhe\documents\github\holdrmb\tutorialnotes.ahk" nne="TutorialNotes" type="File" time="20201206131813" encoding="UTF-8"></file></main>
+		<main file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AutoHotKey_Arr.ahk" id="3">
+			<file dir="C:\Users\Zizhe\Documents\GitHub\HoldRMB" ext="ahk" file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AutoHotKey_Arr.ahk" filename="AutoHotKey_Arr.ahk" id="4" lang="ahk" lower="c:\users\zizhe\documents\github\holdrmb\autohotkey_arr.ahk" nne="AutoHotKey_Arr" type="File" time="20201206124237" encoding="CP1252">
+				<info text="^q" type="Hotkey" upper="^Q"></info>
+				<info text="^w" type="Hotkey" upper="^W"></info></file>
+			<header type="Hotkey"></header></main>
+		<main file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AutoHotkey_MouseClick.ahk" id="5">
+			<file dir="C:\Users\Zizhe\Documents\GitHub\HoldRMB" ext="ahk" file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AutoHotkey_MouseClick.ahk" filename="AutoHotkey_MouseClick.ahk" id="6" lang="ahk" lower="c:\users\zizhe\documents\github\holdrmb\autohotkey_mouseclick.ahk" nne="AutoHotkey_MouseClick" type="File" time="20201206124237" encoding="UTF-8">
+				<info text="^r" type="Hotkey" upper="^R"></info></file>
+			<header type="Hotkey"></header></main>
 	</files>
 </cexml>
