@@ -21,7 +21,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;Esc::
 ;MsgBox, Escape!!!
-;return ;;; trigger {Esc} key to open MsgBox with words Escape!!!;;;
+;return ;;; trigger {Esc} key to open MsgBox with words Escape!!!;;; 
 
 ;;;===Hotstring can also launch scripted actions.Hotstring can do pretty much anyting.===;;;
 
@@ -30,7 +30,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;return ;;;===notice hotstring can't convert input and scripts same time.===;;;
 
 ;^j::
-;MsgBox, wow!
+;MsgBox, wow! 
 ;MsgBox, there are
 ;Run, notepad.exe
 ;WinActivate, Untitled - Notepad
@@ -39,18 +39,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;SendInput, inside the CTRL{+}J hotkey.
 ;return ;;; from line 35 to line 39, the scripts open notepad and input in the notepad. ;;;
 
-;:*:ftw:: Free the Whales ;;; the star key in the middle of the first sets of colon will replace the text rightway. More Hotstring
-;;modifiers can be found at https://www.autohotkey.com/docs/Hotstrings.htm ;;;
 
 
-;;;===== windows specific hotkey and hotstrings =====;;;
-;;;#IfWinActive
-;;;#IfWinExist
-
-;;;this is called "directives", create context-sensitive hotkeys and hotstrings. Simply specify a window title. More advanced can be found
-;;; here at https://www.autohotkey.com/docs/misc/WinTitle.htm ;;;
-
-;#IfWinActive Untitled - Notepad
-;#SPACE::
-;MsgBox, You pressed WIN+SPACE in Notepad.
-;return
