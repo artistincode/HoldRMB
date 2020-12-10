@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;;;take notes and study ahk basic from the tutorial;;;
 
-;;;=== ! is Alt  # is Windows 	^ is Control	+ is Shift    &  combine two keys into a custom hotkey. ===;;;
+;;; ! is Alt  # is Windows 	^ is Control	+ is Shift  ;;;
 
 ;;;======================= Hotkey and Hotstrings =============================;;;
 
@@ -29,28 +29,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;MsgBox, you triggered MsgBox by using hotstring.
 ;return ;;;===notice hotstring can't convert input and scripts same time.===;;;
 
-;^j::
-;MsgBox, wow! 
-;MsgBox, there are
-;Run, notepad.exe
-;WinActivate, Untitled - Notepad
-;WinWaitActive, Untitled - Notepad
-;Send, 7 lines{!}{Enter}
-;SendInput, inside the CTRL{+}J hotkey.
-;return ;;; from line 35 to line 39, the scripts open notepad and input in the notepad. ;;;
-
-;:*:ftw:: Free the Whales ;;; the star key in the middle of the first sets of colon will replace the text rightway. More Hotstring
-;;modifiers can be found at https://www.autohotkey.com/docs/Hotstrings.htm ;;;
-
-
-;;;===== windows specific hotkey and hotstrings =====;;;
-;;;#IfWinActive
-;;;#IfWinExist
-
-;;;this is called "directives", create context-sensitive hotkeys and hotstrings. Simply specify a window title. More advanced can be found
-;;; here at https://www.autohotkey.com/docs/misc/WinTitle.htm ;;;
-
-;#IfWinActive Untitled - Notepad
-;#SPACE::
-;MsgBox, You pressed WIN+SPACE in Notepad.
-;return
+^j::
+MsgBox, wow!
+MsgBox, there are
+Run, notepad.exe
+WinActivate, Untitled - Notepad
+WinWaitActive, Untitled - Notepad
+Send, 7 lines{!}{Enter}
+SendInput, inside the CTRL{+}J hotkey.
+return

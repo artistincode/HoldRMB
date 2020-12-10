@@ -50,7 +50,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;;;this is called "directives", create context-sensitive hotkeys and hotstrings. Simply specify a window title. More advanced can be found
 ;;; here at https://www.autohotkey.com/docs/misc/WinTitle.htm ;;;
 
-;#IfWinActive Untitled - Notepad
-;#SPACE::
-;MsgBox, You pressed WIN+SPACE in Notepad.
-;return
+#IfWinActive Untitled - Notepad
+0::
+MsgBox, You pressed WIN+SPACE in Notepad.
+return

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0"?>
 <gui>
-	<win win="1" pos="x578 y116 w1246 h839">
-		<control h="796" w="1001" x="0" y="0" type="Scintilla" file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" hwnd="2" ra="3" last="1"></control>
-		<control h="359" w="245" x="1001" y="0" lp="0.80337079" type="Project Explorer" ba="4" hwnd="3"></control>
-		<control h="437" w="245" x="1001" y="359" lp="0.80337079" tp="0.45045045" type="Code Explorer" hwnd="4"></control></win>
+	<win win="1" pos="x337 y99 w1484 h839">
+		<control h="637" w="1192" x="0" y="0" type="Scintilla" file="C:\Users\liuz\github\HoldRMB\TutorialNotes.ahk" hwnd="2" ra="3" ba="5" last="1"></control>
+		<control h="359" w="292" x="1192" y="0" lp="0.803371" type="Project Explorer" hwnd="3" ba="4"></control>
+		<control h="436" w="292" x="1192" y="359" lp="0.803371" tp="0.45145019" type="Code Explorer" hwnd="4"></control>
+		<control hwnd="5" type="Debug" h="158" w="1192" x="0" y="637" tp="0.80075662" ra="4"></control></win>
 </gui>

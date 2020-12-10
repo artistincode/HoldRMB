@@ -51,6 +51,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;;; here at https://www.autohotkey.com/docs/misc/WinTitle.htm ;;;
 
 ;#IfWinActive Untitled - Notepad
-;#SPACE::
-;MsgBox, You pressed WIN+SPACE in Notepad.
-;return
+^6::
+MsgBox, You pressed WIN+SPACE in Notepad.
+return

@@ -39,18 +39,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;SendInput, inside the CTRL{+}J hotkey.
 ;return ;;; from line 35 to line 39, the scripts open notepad and input in the notepad. ;;;
 
-;:*:ftw:: Free the Whales ;;; the star key in the middle of the first sets of colon will replace the text rightway. More Hotstring
-;;modifiers can be found at https://www.autohotkey.com/docs/Hotstrings.htm ;;;
+:*:ftw:: Free the Whales
 
 
-;;;===== windows specific hotkey and hotstrings =====;;;
-;;;#IfWinActive
-;;;#IfWinExist
-
-;;;this is called "directives", create context-sensitive hotkeys and hotstrings. Simply specify a window title. More advanced can be found
-;;; here at https://www.autohotkey.com/docs/misc/WinTitle.htm ;;;
-
-;#IfWinActive Untitled - Notepad
-;#SPACE::
-;MsgBox, You pressed WIN+SPACE in Notepad.
-;return

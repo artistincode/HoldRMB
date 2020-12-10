@@ -56,7 +56,7 @@
 			<font color="0x00FF00" style="11"></font>
 			<font color="0x00FF00" style="12"></font>
 			<font color="0x00FF00" style="13"></font></xml>
-		<ahk>
+		<ahk date="20201206130741" name="AutoHotkey">
 			<font style="0" color="12632256"></font>
 			<font style="40" color="65408"></font>
 			<font style="41" color="16776960"></font>
@@ -71,8 +71,7 @@
 			<font style="96" color="8388863"></font>
 			<font style="97" color="8388863"></font>
 			<font style="99" color="8388863"></font>
-			<font style="100" color="8388863"></font>
-		</ahk>
+			<font style="100" color="8388863"></font></ahk>
 	</Languages>
 	<Highlight>
 		<Color color="0x8D02FC" index="1"></Color>
@@ -111,5 +110,6 @@
 	</DefaultEditor>
 	<open>
 		<file>C:\Users\Zizhe\Documents\GitHub\HoldRMB\AHK-Studio-master\Untitled\Untitled1.ahk</file>
+		<file>C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk</file>
 	</open>
 </settings>
