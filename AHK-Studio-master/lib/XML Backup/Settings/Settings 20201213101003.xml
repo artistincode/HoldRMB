@@ -44,19 +44,19 @@
 		<keyword set="8" color="15458669"></keyword>
 	</theme>
 	<Languages>
-		<hypertext date="20201206130705" name="HTML">
+		<hypertext date="20201213100416" name="HTML">
 			<font color="7843024" style="2"></font>
 			<font color="13617276" fold="1" style="1"></font></hypertext>
-		<json date="20201206130705" name="JSON">
+		<json date="20201213100416" name="JSON">
 			<font color="7843024" style="2"></font>
 			<font color="13617276" fold="1" style="1"></font></json>
-		<xml date="20201206130705" name="XML">
+		<xml date="20201213100416" name="XML">
 			<font color="16758590" style="1"></font>
 			<font color="14732901" style="3"></font>
 			<font color="0x00FF00" style="11"></font>
 			<font color="0x00FF00" style="12"></font>
 			<font color="0x00FF00" style="13"></font></xml>
-		<ahk date="20201206130741" name="AutoHotkey">
+		<ahk date="20201213100940" name="AutoHotkey">
 			<font style="0" color="12632256"></font>
 			<font style="40" color="65408"></font>
 			<font style="41" color="16776960"></font>
@@ -105,11 +105,17 @@
 	</autodelete>
 	<gui zoom="0">
 		<position window="20">x657 y399 w590 h213</position>
-		<position window="1" max="0"></position></gui>
-	<DefaultEditor>
-	</DefaultEditor>
+		<position window="1" max="0"></position>
+		<position window="5">x757 y314 w390 h372</position></gui>
+	<DefaultEditor>notepad.exe %1</DefaultEditor>
 	<open>
-		<file>C:\Users\Zizhe\Documents\GitHub\HoldRMB\AHK-Studio-master\Untitled\Untitled1.ahk</file>
-		<file>C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk</file>
+		<file>C:\Users\liuz\github\HoldRMB\TutorialNotes.ahk</file>
+		<file>C:\Users\liuz\Desktop\New AutoHotkey Script (2).ahk</file>
 	</open>
+	<previous_scripts>
+		<script>C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk</script>
+	</previous_scripts>
+	<search>
+		<find acdc="0" allfiles="0" Auto_Show="0" cs="0" daioc="0" gr="0" regex="0" sort="0"></find>
+	</search>
 </settings>
