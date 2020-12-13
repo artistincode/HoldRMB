@@ -1,7 +1,0 @@
-﻿<?xml version="1.0"?>
-<gui>
-	<win win="1" pos="x578 y116 w1246 h839">
-		<control h="796" w="1001" x="0" y="0" type="Scintilla" file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" hwnd="2" ra="3" last="1"></control>
-		<control h="359" w="245" x="1001" y="0" lp="0.80337079" type="Project Explorer" ba="4" hwnd="3"></control>
-		<control h="437" w="245" x="1001" y="359" lp="0.80337079" tp="0.45045045" type="Code Explorer" hwnd="4"></control></win>
-</gui>
