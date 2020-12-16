@@ -103,98 +103,11 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;Send, Hello world {{}{!}{}}
 ;;;= try the code above to see if the result is expected, and have fun.=;;;
 
-;^i::
-;send, try to press {Enter} key here.
-;= another example=;;;
+^i::
+send, try to press {Enter} key here.
+;;= another example=;;;
 
 ;^!b::
 ;Send, ^v
 ;return
 ;;;= this script will send Ctrl+v when  Ctrl+Alt+b is pressed =;;;  
-
- ;When making a hotkey...
- ;WRONG
-;;;	{LCtrl}::
-;Send, AutoHotkey
-;return
-
-; CORRECT
-;LCtrl::
-;Send, AutoHotkey
-;return
-
-
-;;;======================4 Running Programs and Websites==========================;;;
-
-;;; You can suse the Run command to run/launch a programm and open URLs.;;;
-
-;^i::
-;Run, https://www.youtube.com
-;return 
-
-;;; Note most programs will require a FULL file Path:
-
-;^i::
-;Run, C:\Program Files (x86)\Steam\steam.exe
-;return
-
-;;; For more advanced function, check the link https://www.autohotkey.com/docs/commands/Run.htm ;;;
-
-
-;;;=====================5 Commands vs. Functions()================================;;;
-
-;;;AHK has tow main types of things used by the scripter to create code: commands and funcitons. ;;;
-;;;a list of all can be found link https://www.autohotkey.com/docs/commands/index.htm   ;;;
-
-;;;	Commands Do not use parentheses around the parameters like functions do. So a command would look like this:
-;;;*** Command, Parameter1, Parameter2, Parameter3
-;;;	Command also differ from function in that they use "legacy syntax". This means that you need percent signs around a variable, 
-;;;such as %Var%, and that any text and number do not need to be in quotation marks, such as This is some test. 
-;;; you can not do math in the parameters, unlike functions. 
-
-;;;	Functions use parentheres. A typical function looks like:
-;;;*** Function(Parameter1, Parameter2, Parameter3)
-;;; Function have a few main differences:
-;;; 1. You can do math in them:
-;;;	substr(37* 12, 1, 2)
-;;;	SubStr(A_hour - 12, 2)
-;;; 2. Variables do notr need to be wrapped in percent signs:
-;;; SubStr(A_Now, 7, 2)
-;;; 3. Functions can do inside of functions:
-;;; SubStr(A_AhkPath, InStr(A_AhkPath, "AutoHotkey"))
-;;; 4. Text needs to be wrapped in quotes:
-;;; SubStr("I'm scripting, awesome!", 16)
-
-;;; a function usually return a value differently than a command does. Commands need an OutputVar parameter, functions do not.
-;;; The most comon way assigning the value of a function to a variable is like so:
-;;; MyVar := SubStr("I'm scripting, awesome!", 16)
-;;; See link for more details https://www.autohotkey.com/docs/Functions.htm
-
-;;;=====Code blocks=====;;;
-
-;;; link for Code blocks https://www.autohotkey.com/docs/commands/Block.htm   ;;;
-;;; Code block are lines of code surrounded by little curly brackets {}. They group a section of code together so that AutoHotkey knows it's
-;;; one big family and that it need sot stay together. They are most often used with functions and control flow statements such as If and Loop.
-;;; Without them, only the first line in the block is called. 
-
-
-;In the following code, BOTH lines are run only if MyVar equals 5:
-
-;if (MyVar = 5)
-;{
-    ;MsgBox, MyVar equals %MyVar%!!
-    ;ExitApp
-;}
-
-;In the following code, the message box is only shown if MyVar equals 5. The script will ALWAYS exit, even if MyVar is not 5:
-
-;if (MyVar = 5)
-	;MsgBox, MyVar equals %MyVar%!!
-;ExitApp
-
-
-;^i::
-;MsgBox % SubStr("123abc789",7,3)
-;return
-
-;;;Note need to review chapter 3,4 and 5.;;;

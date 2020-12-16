@@ -147,13 +147,13 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;;;a list of all can be found link https://www.autohotkey.com/docs/commands/index.htm   ;;;
 
 ;;;	Commands Do not use parentheses around the parameters like functions do. So a command would look like this:
-;;;*** Command, Parameter1, Parameter2, Parameter3
+;;; Command, Parameter1, Parameter2, Parameter3
 ;;;	Command also differ from function in that they use "legacy syntax". This means that you need percent signs around a variable, 
 ;;;such as %Var%, and that any text and number do not need to be in quotation marks, such as This is some test. 
 ;;; you can not do math in the parameters, unlike functions. 
 
 ;;;	Functions use parentheres. A typical function looks like:
-;;;*** Function(Parameter1, Parameter2, Parameter3)
+;;; Function(Parameter1, Parameter2, Parameter3)
 ;;; Function have a few main differences:
 ;;; 1. You can do math in them:
 ;;;	substr(37* 12, 1, 2)
@@ -178,7 +178,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;;; Without them, only the first line in the block is called. 
 
 
-;In the following code, BOTH lines are run only if MyVar equals 5:
+;In the following code, both lines are run only if MyVar equals 5:
 
 ;if (MyVar = 5)
 ;{
@@ -186,15 +186,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
     ;ExitApp
 ;}
 
-;In the following code, the message box is only shown if MyVar equals 5. The script will ALWAYS exit, even if MyVar is not 5:
+;In the following code, the message box is only shown if MyVar equals 5. The script will always exit, even if MyVar is not 5:
 
 ;if (MyVar = 5)
 	;MsgBox, MyVar equals %MyVar%!!
 ;ExitApp
-
-
-;^i::
-;MsgBox % SubStr("123abc789",7,3)
-;return
-
-;;;Note need to review chapter 3,4 and 5.;;;

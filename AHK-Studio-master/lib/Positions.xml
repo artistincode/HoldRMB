@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <positions>
 	<file file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AHK-Studio-master\Untitled\Untitled1.ahk" end="0" scroll="0" start="0"></file>
-	<file file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" end="4404" scroll="79" start="4404"></file>
+	<file file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" end="7434" scroll="167" start="7434"></file>
 	<file file="C:\Users\liuz\github\HoldRMB\TutorialNotes.ahk" end="0" scroll="0" start="0"></file>
 	<main file="C:\Users\liuz\github\HoldRMB\TutorialNotes.ahk" search="^j::
 MsgBox, you pressed control and shift ;;; don't need the curve brackets for keys in MsgBox ;;;

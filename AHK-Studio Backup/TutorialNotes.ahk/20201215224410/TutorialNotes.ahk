@@ -193,8 +193,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ;ExitApp
 
 
-;^i::
-;MsgBox % SubStr("123abc789",7,3)
-;return
-
-;;;Note need to review chapter 3,4 and 5.;;;
+^i::
+SubStr(5*5, 1, 2)
