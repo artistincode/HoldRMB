@@ -235,4 +235,4 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 		;if Number = 6  ; Without parentheses, the IF is legacy. However, only variables on the 'right side' need percent signs. 
 			;if Var1 < %Var2%  ; Without parentheses, the IF is legacy. However, only variables on the 'right side' need percent signs.
 			
-;;;
+			
