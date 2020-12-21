@@ -44,19 +44,19 @@
 		<keyword set="8" color="15458669"></keyword>
 	</theme>
 	<Languages>
-		<hypertext date="20201213100416" name="HTML">
+		<hypertext date="20201206155225" name="HTML">
 			<font color="7843024" style="2"></font>
 			<font color="13617276" fold="1" style="1"></font></hypertext>
-		<json date="20201213100416" name="JSON">
+		<json date="20201206155225" name="JSON">
 			<font color="7843024" style="2"></font>
 			<font color="13617276" fold="1" style="1"></font></json>
-		<xml date="20201213100416" name="XML">
+		<xml date="20201206155225" name="XML">
 			<font color="16758590" style="1"></font>
 			<font color="14732901" style="3"></font>
 			<font color="0x00FF00" style="11"></font>
 			<font color="0x00FF00" style="12"></font>
 			<font color="0x00FF00" style="13"></font></xml>
-		<ahk date="20201213111156" name="AutoHotkey">
+		<ahk date="20201216205425" name="AutoHotkey">
 			<font style="0" color="12632256"></font>
 			<font style="40" color="65408"></font>
 			<font style="41" color="16776960"></font>

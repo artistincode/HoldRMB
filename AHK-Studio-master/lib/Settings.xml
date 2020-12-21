@@ -56,7 +56,7 @@
 			<font color="0x00FF00" style="11"></font>
 			<font color="0x00FF00" style="12"></font>
 			<font color="0x00FF00" style="13"></font></xml>
-		<ahk date="20201216205425" name="AutoHotkey">
+		<ahk date="20201221104129" name="AutoHotkey">
 			<font style="0" color="12632256"></font>
 			<font style="40" color="65408"></font>
 			<font style="41" color="16776960"></font>
@@ -112,6 +112,7 @@
 		<file>C:\Users\liuz\github\HoldRMB\TutorialNotes.ahk</file>
 		<file>C:\Users\liuz\Desktop\New AutoHotkey Script (2).ahk</file>
 		<file>C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk</file>
+		<file>C:\Users\liuz\github\HoldRMB\FGcoloFill.ahk</file>
 	</open>
 	<previous_scripts>
 		<script>C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk</script>
