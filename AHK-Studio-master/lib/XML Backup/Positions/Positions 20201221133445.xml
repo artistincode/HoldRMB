@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0"?>
 <positions>
 	<file file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\AHK-Studio-master\Untitled\Untitled1.ahk" end="0" scroll="0" start="0"></file>
-	<file file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" end="4330" scroll="89" start="4330"></file>
-	<file file="C:\Users\liuz\github\HoldRMB\TutorialNotes.ahk" end="0" scroll="0" start="0"></file>
+	<file file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" end="0" scroll="0" start="0"></file>
+	<file file="C:\Users\liuz\github\HoldRMB\TutorialNotes.ahk" end="8169" scroll="191" start="8169" fold="183"></file>
 	<main file="C:\Users\liuz\github\HoldRMB\TutorialNotes.ahk" search="^j::
 MsgBox, you pressed control and shift ;;; don't need the curve brackets for keys in MsgBox ;;;
 
 "></main>
 	<file file="C:\Users\liuz\Desktop\New AutoHotkey Script (2).ahk" end="0" scroll="0" start="0"></file>
 	<main file="C:\Users\Zizhe\Documents\GitHub\HoldRMB\TutorialNotes.ahk" search=""></main>
+	<file file="C:\Users\liuz\github\HoldRMB\FGcoloFill.ahk" end="497" scroll="0" start="497"></file>
 </positions>
